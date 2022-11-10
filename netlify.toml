@@ -1,6 +1,6 @@
 [build]
-  publish = "vex/exampleSite/public"
-  command = "cd vex/exampleSite && hugo --gc --themesDir ../.."
+  publish = "themes/public"
+  command = "cd themes && hugo --gc --themesDir ../.."
   
 [build.environment]
   HUGO_VERSION = "0.73.0"
