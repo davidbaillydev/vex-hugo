@@ -2,12 +2,14 @@
 baseurl = "https://lovely-bunny-487ad1.netlify.app"
 title = "Vex | hugo landing page template"
 themes = "vex-hugo"
+defaultContentLanguage = "fr"
+languageCode = "fr-fr"
 # post excert
 summarylength = "20"
 # google analytics
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = ['En'] # disable language from here
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -42,34 +44,39 @@ link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 
 # homepage section menu
 [[menu.main]]
-name = "Home"
+name = "Acceuil"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
+name = "Nos Véhicules"
 url = "products/"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
+name = "Actualités"
 url = "blog/"
 weight = 3
 
 [[menu.main]]
-name = "Review"
+name = "Nos clients"
 pre = "#"
 url = "testimonial"
 weight = 4
 
 [[menu.main]]
+name = "Location"
+url = "location/"
+weight = 5
+
+[[menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 5
+weight = 6
 
 # footer menu
 [[menu.footer]]
-name = "Blog"
+name = "Actualités"
 url = "blog/"
 weight = 1
 
@@ -80,7 +87,7 @@ weight = 2
 
 [[menu.footer]]
 name = "Terms & Conditions"
-url = "terms-conditions/"
+# url = "terms-conditions/"
 weight = 3
 
 [[menu.footer]]
@@ -92,14 +99,16 @@ weight = 4
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
-logo_width = "100px"
+logo_width = "150px"
 # Meta data
-description = "This is meta description"
+description = "BURN-E VIPER à Blagnac Pensez technologie, faites la différence Tous nos véhicules 2 roues électriques sont sélectionnés sur un rapport de qualité, poids, puissance et autonomie des plus rigoureux."
 author = "Themefisher"
 # currency
-currency = "$"
+currency = "€"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formsubmit.co/xtremelectra@gmail.com" # contact form works with https://formsubmit.co
+# contact_form_action = "#" # contact form works with https://formspree.io 
+
 
 # Preloader
 [params.preloader]
@@ -124,7 +133,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                  
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
@@ -134,6 +143,7 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+#copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Tout Droits Réservé XTREM-ELECTRA 2022 Propulsez par Lc Digitale web Agency  : https://lcdigitale.fr "
