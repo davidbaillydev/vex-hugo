@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://lovely-bunny.fr"
+baseurl = "https://lovely-bunny-487ad1.netlify.app"
 title = "Vex | hugo landing page template"
 themes = "vex-hugo"
 # post excert
