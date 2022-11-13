@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "https://lovely-bunny-487ad1.netlify.app"
-title = "Vex | hugo landing page template"
+title = "XTREM-ELECTRA Ventes - Location et balades à trottinettes électriques ultra performantes sur Toulouse, nouvelle start-up française."
 themes = "vex-hugo"
 defaultContentLanguage = "fr"
 languageCode = "fr-fr"
