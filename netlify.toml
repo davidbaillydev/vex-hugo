@@ -10,7 +10,7 @@
 
 
 [build]
-  publish = "themes/public"
+  publish = "public"
   command = "hugo --minify --gc"
   
 [build.environment]
