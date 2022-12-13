@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/vex/examplesite/"
+baseurl = "https://lovely-bunny-487ad1.netlify.app"
 title = "Vex | hugo landing page template"
-theme = "vex-hugo"
+themes = "vex-hugo"
 # post excert
 summarylength = "20"
 # google analytics
